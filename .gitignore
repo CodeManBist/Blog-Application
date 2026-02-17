@@ -1,0 +1,48 @@
+# -------------------- GENERAL --------------------
+.env
+.env.*
+*.log
+*.sqlite3
+db.sqlite3
+.DS_Store
+Thumbs.db
+
+# -------------------- PYTHON / DJANGO --------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.swp
+*.egg-info/
+dist/
+build/
+
+# virtual environment
+venv/
+env/
+.venv/
+
+# Django stuff
+media/
+staticfiles/
+*.pot
+*.mo
+
+# -------------------- NODE / REACT --------------------
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-lock.yaml
+
+# build outputs
+dist/
+build/
+.vite/
+
+# -------------------- IDE --------------------
+.vscode/
+.idea/
+
+# -------------------- OS --------------------
+*.tmp
